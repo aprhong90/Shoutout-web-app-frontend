@@ -5,10 +5,6 @@ import { signInWithGoogle, signOut } from "../firebaseConfig";
 import "./Header.css";
 
 const Header = () => {
-  // const name: string | undefined = useParams().name;
-  //const location = useLocation();
-  // console.log(location.pathname);
-
   const { user } = useContext(AuthContext);
 
   return (

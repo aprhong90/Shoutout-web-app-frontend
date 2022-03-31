@@ -1,8 +1,9 @@
 .Header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
+  padding: 30px 20px 10px 20px;
+}
+
+.Header h1 {
+  margin: 0 0 10px 0;
 }
 
 .Header a {
@@ -20,11 +21,12 @@
 .Header .sign-out-box {
   display: flex;
   padding-left: 20px;
+  align-items: center;
 }
 
 .Header button {
   margin-left: 10px;
-  height: 50px;
+  height: 40px;
   background-color: white;
   cursor: pointer;
   border: 1px solid rgba(160, 160, 160, 0.927);
@@ -33,4 +35,13 @@
 .Header button:hover,
 .Header a:hover {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 768px) {
+  .Header {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+  }
 }
