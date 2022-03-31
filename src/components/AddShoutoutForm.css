@@ -1,0 +1,39 @@
+.AddShoutoutForm {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px rgba(160, 160, 160, 0.927);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.AddShoutoutForm h2 {
+  margin: 0;
+}
+
+.AddShoutoutForm label {
+  margin-top: 10px;
+}
+
+.AddShoutoutForm input {
+  margin-top: 5px;
+}
+
+.AddShoutoutForm #to,
+.AddShoutoutForm #from {
+  height: 20px;
+  width: 250px;
+  border: 1px solid rgba(160, 160, 160, 0.927);
+}
+
+.AddShoutoutForm #text {
+  border: 1px solid rgba(160, 160, 160, 0.927);
+}
+
+.AddShoutoutForm button {
+  margin-top: 10px;
+  width: 250px;
+  height: 20px;
+  border: 1px solid rgba(160, 160, 160, 0.927);
+}

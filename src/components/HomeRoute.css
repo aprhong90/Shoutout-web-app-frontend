@@ -1,0 +1,17 @@
+.HomeRoute {
+  padding: 0 20px;
+  margin-bottom: 500px;
+}
+
+.HomeRoute ul {
+  padding: 0;
+}
+
+.HomeRoute .message-to-signIn {
+  padding-bottom: 30px;
+}
+
+.HomeRoute .message-to-signIn button {
+  background-color: white;
+  border: 1px solid black;
+}
