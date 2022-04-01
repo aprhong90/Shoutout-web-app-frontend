@@ -27,8 +27,8 @@ const MeRoute = () => {
     } else {
       navigate("/");
     }
-  }, [user]);
-  //what's going to happen if the dependency array is empty??
+  }, [user, navigate]);
+
   return (
     <div className="MeRoute">
       <ul>

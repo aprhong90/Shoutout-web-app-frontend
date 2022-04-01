@@ -25,11 +25,7 @@ const ShoutoutCard = ({ shoutout, onDeleteShoutout }: Props) => {
 
       <p className="text">{shoutout.text}</p>
       {shoutout.image && (
-        <img
-          className="shoutout-image"
-          src={shoutout.image}
-          alt="shoutout image"
-        />
+        <img className="shoutout-image" src={shoutout.image} alt="shoutout" />
       )}
     </li>
   );
