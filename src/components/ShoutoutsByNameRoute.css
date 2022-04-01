@@ -1,0 +1,19 @@
+.ShoutoutsByNameRoute {
+  margin: 20px;
+}
+.ShoutoutsByNameRoute h2 {
+  margin-bottom: 10px;
+}
+.ShoutoutsByNameRoute .back-to-all {
+  text-decoration: none;
+  color: black;
+}
+
+.ShoutoutsByNameRoute .back-to-all:hover {
+  color: rgb(82, 160, 228);
+}
+
+.ShoutoutsByNameRoute ul {
+  padding: 0;
+  margin-top: 10px;
+}

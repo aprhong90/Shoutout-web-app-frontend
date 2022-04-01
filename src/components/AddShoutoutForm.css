@@ -14,6 +14,7 @@
 
 .AddShoutoutForm label {
   margin-top: 10px;
+  font-weight: 500;
 }
 
 .AddShoutoutForm input {
@@ -36,6 +37,7 @@
   width: 250px;
   height: 20px;
   border: 1px solid rgba(160, 160, 160, 0.927);
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {

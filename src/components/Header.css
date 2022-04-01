@@ -2,11 +2,18 @@
   padding: 30px 20px 10px 20px;
 }
 
-.Header h1 {
+.Header .h1 {
   margin: 0 0 10px 0;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 
-.Header a {
+.Header .h1:hover {
+  color: rgb(82, 160, 228);
+}
+
+.Header .me {
   text-decoration: none;
   color: white;
   background-color: rgb(82, 82, 82);
@@ -33,7 +40,7 @@
 }
 
 .Header button:hover,
-.Header a:hover {
+.Header .me:hover {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 

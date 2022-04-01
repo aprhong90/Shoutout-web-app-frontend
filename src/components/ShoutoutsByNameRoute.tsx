@@ -38,8 +38,10 @@ const ShoutoutsByNameRoute = () => {
   return (
     <div className="ShoutoutsByNameRoute">
       <h2>Shoutouts By {name}</h2>
-      <Link to="/">Back to All Shoutouts</Link>
-      <AddShoutoutForm onAddShoutout={addShoutoutHandler} name={name!} />
+      <Link to="/" className="back-to-all">
+        Back to All Shoutouts
+      </Link>
+
       <ul>
         {shoutouts.map((shoutout) => {
           return (
@@ -51,6 +53,7 @@ const ShoutoutsByNameRoute = () => {
           );
         })}
       </ul>
+      <AddShoutoutForm onAddShoutout={addShoutoutHandler} name={name!} />
     </div>
   );
 };

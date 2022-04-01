@@ -9,9 +9,13 @@ const Header = () => {
 
   return (
     <header className="Header">
-      <h1>Shoutouts</h1>
+      <Link className="h1" to="/">
+        <h1>Shoutouts</h1>
+      </Link>
       <div className="btn-container">
-        <Link to="/me">Me</Link>
+        <Link className="me" to="/me">
+          Me
+        </Link>
         {user ? (
           <div className="sign-out-box">
             <p>{user.displayName}</p>
